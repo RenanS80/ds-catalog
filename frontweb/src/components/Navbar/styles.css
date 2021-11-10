@@ -28,3 +28,15 @@
     color: var(--white);
     font-weight: 700;
 }
+
+/* --- MEDIA QUERIES --- */
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #dscatalog-navbar {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 40px;
+    }
+}
+

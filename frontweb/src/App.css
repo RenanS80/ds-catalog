@@ -7,6 +7,7 @@
 :root {
   --white: #FFF;
   --navbar-item: rgba(255, 255, 255, 0.5);
+  --description: #9E9E9E;
 }
 
 h1, h2, h3, h4, h5, h6 {
