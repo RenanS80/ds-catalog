@@ -74,7 +74,4 @@ public class CategoryService {
 			throw new DatabaseException("Violação de integridade");
 		}
 	}
-	
-	
-	
 }
