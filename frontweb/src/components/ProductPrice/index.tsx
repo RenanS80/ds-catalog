@@ -1,11 +1,15 @@
 import './styles.css';
 
-function ProductPrice(){
+type Props = {
+    price: number;
+}
+
+function ProductPrice({ price } : Props){
     return(
         <div className="product-price-container">
             <span>R$</span>
             <h3>
-                2.799
+                {price}
                 <span className="price-decimal">,00</span>
             </h3>
         </div>
