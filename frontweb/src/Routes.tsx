@@ -5,6 +5,7 @@ import Navbar from "components/Navbar";
 import Home from "pages/Home";
 import Catalog from 'pages/Catalog';
 import Admin from 'pages/Admin';
+import ProductDetails from 'pages/ProductDetails';
 
 function Routes() {
     return (
@@ -15,8 +16,12 @@ function Routes() {
                     <Home />
                 </Route>
 
-                <Route path="/products">
+                <Route path="/products" exact>
                     <Catalog />
+                </Route>
+
+                <Route path="/products/:productId">
+                    <ProductDetails />
                 </Route>
 
                 <Route path="/admin">
