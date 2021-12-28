@@ -1,0 +1,143 @@
+.product-details-container {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.product-details-card {
+    padding: 10px;
+}
+
+.goback-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.goback-container svg {
+    color: var(--blue);
+    transform: rotate(-180deg);
+    margin-left: 5px;
+}
+
+.goback-container h2 {
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-size: 1em;
+}
+
+.goback-container h2,
+.name-price-container h1,
+.description-container h2,
+.description-container p {
+    letter-spacing: -0.015em;
+}
+
+.goback-container h2, 
+.name-price-container h1 {
+    color: var(--text-black);
+}
+
+.img-container {
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.img-container img {
+    width: 80%;
+}
+
+.name-price-container {
+    margin-bottom: 30px;
+}
+
+.name-price-container h1 {
+    font-size: 1.1em;
+}
+
+.description-container {
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 12px;
+}
+
+
+.description-container h2,
+.description-container p {
+    color: var(--gray);
+}
+
+.description-container h2 {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
+.description-container p {
+    font-size: 0.7em;
+}
+
+
+/* --- MEDIA QUERIES --- */
+
+/* Small devices*/
+@media (min-width: 576px) {
+    .product-details-container, 
+    .product-details-card {
+        padding: 20px;
+    }
+
+    .product-details-container {
+        font-size: 32px;
+    }
+}
+
+/* Large devices*/
+@media (min-width: 992px) {
+    .product-details-container, 
+    .product-details-card {
+        padding: 40px;
+    }
+
+    .img-container img{
+        width: 50%;
+    }
+
+    .description-container {
+        padding: 40px;
+    }
+
+    .name-price-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* Extra Large devices*/
+@media (min-width: 1200px) {
+    .name-price-container {
+        display: block;
+    }
+
+    .img-container img {
+        width: auto;
+        height: 280px;
+    }
+
+    .description-container {
+        min-height: 302px;
+    }
+}
+
+/* Extra Large devices*/
+@media (min-width: 1400px) {
+    .img-container img {
+        width: auto;
+        height: 480px;
+    }
+
+    .description-container {
+        min-height: 502px;
+    }
+}

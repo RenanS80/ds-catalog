@@ -20,6 +20,6 @@
 .card-bottom-container h6 {
     font-size: 18px;
     font-weight: bold;
-    color: var(--product-title);
+    color: var(--text-black);
 }
 

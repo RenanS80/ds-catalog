@@ -20,6 +20,7 @@ button h6 {
     height: 50px;
     background-color: var(--blue-dark);
     border-radius: 0px 10px 10px 0px;
+    color: #FFF;
 }
 
 
