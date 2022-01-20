@@ -26,7 +26,11 @@ function Catalog() {
     }
 
     return (
-        <div className="container-fluid my-4">
+        <div className="container my-4 catalog-container">
+            <div className="row catalog-title-container">
+                <h1>Catálogo de produtos</h1>
+            </div>
+
             <div className="row row-cols-xl-5">
                 <div className="col-sm-6 col-lg-4">
                     <Link to="/products/1">

@@ -1,3 +1,27 @@
+.catalog-container {
+    font-size: 22px;
+}
+
+.catalog-title-container {
+    margin-bottom: 20px;
+}
+
+.catalog-title-container h1 {
+    font-size: 1em;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+    color: var(--text-black);
+}
+
+
+/* -- MEDIA QUERIES -- */
+@media (min-width: 576px) {
+    .catalog-title-container {
+        font-size: 28px;
+    }
+}
 
 @media (min-width: 768px) {
     .container-fluid {
