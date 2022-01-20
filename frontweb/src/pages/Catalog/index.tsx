@@ -2,6 +2,7 @@ import './styles.css';
 
 import ProductCard from 'components/ProductCard';
 import { Product } from 'types/product';
+import { Link } from 'react-router-dom';
 
 function Catalog() {
 
@@ -28,22 +29,34 @@ function Catalog() {
         <div className="container-fluid my-4">
             <div className="row row-cols-xl-5">
                 <div className="col-sm-6 col-lg-4">
-                    <ProductCard product={product} />
+                    <Link to="/products/1">
+                        <ProductCard product={product} />
+                    </Link>
                 </div>
                 <div className="col-sm-6 col-lg-4">
-                    <ProductCard product={product} />
+                    <Link to="/products/1">
+                        <ProductCard product={product} />
+                    </Link>
                 </div>
                 <div className="col-sm-6 col-lg-4">
-                    <ProductCard product={product} />
+                    <Link to="/products/1">
+                        <ProductCard product={product} />
+                    </Link>
                 </div>
                 <div className="col-sm-6 col-lg-4">
-                    <ProductCard product={product} />
+                    <Link to="/products/1">
+                        <ProductCard product={product} />
+                    </Link>
                 </div>
                 <div className="col-sm-6 col-lg-4">
-                    <ProductCard product={product} />
+                    <Link to="/products/1">
+                        <ProductCard product={product} />
+                    </Link>
                 </div>
                 <div className="col-sm-6 col-lg-4">
-                    <ProductCard product={product} />
+                    <Link to="/products/1">
+                        <ProductCard product={product} />
+                    </Link>
                 </div>
             </div>
         </div>

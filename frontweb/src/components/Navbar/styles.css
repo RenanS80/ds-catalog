@@ -41,3 +41,9 @@
     }
 }
 
+@media (min-width: 1200px) {
+    .main-menu {
+        margin: 0 auto;
+        
+    }
+}
